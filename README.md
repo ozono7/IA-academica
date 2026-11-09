@@ -27,13 +27,13 @@ A estudiantes de ciencias químicas, biotecnología y biotecnología ambiental, 
 | [08-research-rabbit.md](08-research-rabbit.md) | Research Rabbit | Descubrir literatura relacionada y organizar colecciones | Gratis (Free Forever); RR+ de pago |
 | [09-notebooklm.md](09-notebooklm.md) | NotebookLM (Gemini Notebook) | Organizar fuentes, resúmenes y guías de estudio | Gratis con cuenta de Google |
 | [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) | Flujo completo | Las 10 herramientas juntas, aplicadas a un artículo real | — |
-| [11-pubmed.md](11-pubmed.md) | PubMed (NCBI) | Buscar artículos por tema: título, año, revista, autores, resumen, DOI | Gratis |
+| [11-pubmed.md](11-pubmed.md) | Búsqueda automática | Buscar en 7 repositorios, ideas de revistas y descarga de PDFs | Gratis |
 
 ## El flujo de trabajo completo
 
 El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramientas, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja. El flujo, en resumen:
 
-1. **Buscar en PubMed** — PubMed: buscar artículos por tema y obtener la ficha completa de cada uno (título, año, revista, autores, resumen, DOI, PMID), y exportar las referencias a Zotero.
+1. **Búsqueda automática** — Script de R: busca el tema en 7 repositorios (PubMed, Europe PMC, Semantic Scholar, OpenAlex, Crossref, arXiv y CORE), elimina duplicados por DOI, busca revistas candidatas en Scimago y Springer, y descarga los PDFs libres (máximo 120).
 2. **Buscar** — Semantic Scholar: encontrar artículos sobre lípidos en microalgas bajo luz azul y roja, y descargar los de acceso abierto.
 3. **Validar** — Consensus: preguntar si la evidencia apoya que la luz azul aumenta la acumulación de lípidos, y leer el Consensus Meter.
 4. **Extraer** — Elicit: subir los PDFs y armar una tabla comparativa (especie, luz, intensidad, lípidos, método, resultado).
@@ -56,6 +56,13 @@ El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramien
 - Semantic Scholar: https://semanticscholar.org
 - PubMed (NCBI): https://pubmed.ncbi.nlm.nih.gov/
 - Europe PMC: https://europepmc.org/
+- OpenAlex: https://api.openalex.org/
+- Crossref: https://api.crossref.org/
+- arXiv: https://arxiv.org/
+- CORE: https://core.ac.uk/
+- Unpaywall: https://api.unpaywall.org/
+- Scimago Journal Rank: https://www.scimagojr.com/journalrank.php
+- Springer: https://link.springer.com/journals — API de Springer Nature: https://dev.springernature.com/
 - Consensus: https://consensus.app
 - Elicit: https://elicit.com
 - Connected Papers: https://connectedpapers.com

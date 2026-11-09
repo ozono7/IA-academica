@@ -7,7 +7,7 @@
 
 # 10 — Flujo de trabajo completo: de la búsqueda al manuscrito
 
-Este archivo aplica las 9 herramientas del repositorio, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja (acumulación de lípidos, crecimiento y transcriptoma). El objetivo del flujo es armar la revisión de literatura y el borrador del manuscrito para enviarlo a una de las revistas candidatas: Plant Biotechnology Journal, Bioresource Technology o Metabolic Engineering.
+Este archivo aplica las 10 herramientas del repositorio, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja (acumulación de lípidos, crecimiento y transcriptoma). El objetivo del flujo es armar la revisión de literatura y el borrador del manuscrito para enviarlo a una de las revistas candidatas: Plant Biotechnology Journal, Bioresource Technology o Metabolic Engineering.
 
 Cada paso remite al archivo de la herramienta, donde están las instrucciones detalladas. Aquí se muestra qué hacer en cada paso, con las búsquedas y preguntas literales.
 
@@ -17,7 +17,20 @@ Cada paso remite al archivo de la herramienta, donde están las instrucciones de
 - **Artículo publicado del autor:** Torres-Martínez et al. (2025), acumulación de lípidos en *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul/roja, J. Applied Phycology, DOI 10.1007/s10811-024-03426-4.
 - **Revistas candidatas:** Plant Biotechnology Journal, Bioresource Technology, Metabolic Engineering.
 
-## Paso 1. Buscar — Semantic Scholar
+## Paso 1. Búsqueda automática — artículos, revistas y PDFs con el script
+
+Ver [11-pubmed.md](11-pubmed.md) y el script [11-busqueda-automatica-articulos.R](11-busqueda-automatica-articulos.R).
+
+- Abre el script en R o RStudio y edita la configuración: el tema (en inglés), tu correo, cuántos resultados pedir por fuente y las áreas de Scimago para las revistas.
+- Descarga el archivo CSV del ranking de Scimago en https://www.scimagojr.com/journalrank.php (botón Download, formato CSV) y guárdalo como `scimago_journalrank.csv` junto al script.
+- Corre el script completo. Busca el tema en siete repositorios a la vez (PubMed, Europe PMC, Semantic Scholar, OpenAlex, Crossref, arXiv y CORE), junta los resultados, elimina duplicados por DOI y anota en qué fuente se encontró cada artículo.
+- El script también busca revistas candidatas por área y cuartil en Scimago y en Springer, y descarga los PDFs libres a la carpeta `pdfs/` (máximo 120, los más recientes primero).
+- Revisa los archivos generados: `tabla_articulos.csv` (título, año, revista, autores, resumen, DOI, PMID y si el PDF se descargó), `revistas_sugeridas.csv` y `articulos_por_anio.png`.
+- Con el tema del ejemplo (`Chlorella vulgaris blue light lipid accumulation`), la búsqueda devolvió 27 artículos únicos tras deduplicar, 12 de acceso abierto y 4 revistas Q1 sugeridas (Plant Biotechnology Journal, Bioresource Technology, Metabolic Engineering y Chemosphere).
+
+**Resultado esperado:** la tabla de artículos con sus datos completos, las revistas candidatas y los PDFs libres descargados, listos para pasar a los pasos siguientes.
+
+## Paso 2. Buscar — Semantic Scholar
 
 Ver [01-semantic-scholar.md](01-semantic-scholar.md).
 
@@ -32,7 +45,7 @@ Ver [01-semantic-scholar.md](01-semantic-scholar.md).
 
 **Resultado esperado:** una lista de 15 a 30 artículos relevantes, con sus PDFs de acceso abierto descargados en una carpeta.
 
-## Paso 2. Validar — Consensus
+## Paso 3. Validar — Consensus
 
 Ver [02-consensus.md](02-consensus.md).
 
@@ -52,12 +65,12 @@ Ver [02-consensus.md](02-consensus.md).
 
 **Resultado esperado:** dos respuestas con su Consensus Meter y las fuentes revisadas por pares que las respaldan, para usarlas en la introducción del manuscrito.
 
-## Paso 3. Extraer — Elicit
+## Paso 4. Extraer — Elicit
 
 Ver [03-elicit.md](03-elicit.md).
 
 - Entra a https://elicit.com y crea tu cuenta gratuita.
-- Sube los PDFs descargados en el paso 1 (los de luz azul/roja y lípidos).
+- Sube los PDFs descargados en los pasos 1 y 2 (los de luz azul/roja y lípidos).
 - Pide estas columnas, con las preguntas literales en inglés:
   - `Which microalga species was studied?` (¿Qué especie de microalga se estudió?)
   - `What light condition was used?` (¿Qué condición de luz se usó?)
@@ -69,7 +82,7 @@ Ver [03-elicit.md](03-elicit.md).
 
 **Resultado esperado:** una tabla comparativa con los artículos, la especie, la luz, el contenido de lípidos y el método, lista para comparar y para citar.
 
-## Paso 4. Mapear — Connected Papers
+## Paso 5. Mapear — Connected Papers
 
 Ver [04-connected-papers.md](04-connected-papers.md).
 
@@ -81,11 +94,11 @@ Ver [04-connected-papers.md](04-connected-papers.md).
 - Explora el gráfico: los círculos grandes son los artículos más citados; los nodos cercanos al semilla son los más relacionados.
 - Revisa **Prior Works** para encontrar los trabajos que dieron origen al tema (los pioneros de luz y lípidos en microalgas).
 - Revisa **Derivative Works** para ver qué artículos recientes se basaron en el trabajo de 2025 o en sus vecinos.
-- Guarda los artículos que falten en tu lista del paso 1 y añádelos a la tabla de Elicit.
+- Guarda los artículos que falten en tu lista de los pasos 1 y 2 y añádelos a la tabla de Elicit.
 
 **Resultado esperado:** el mapa de la literatura del tema, con los artículos seminales identificados y los avances recientes localizados.
 
-## Paso 5. Verificar el contexto — scite
+## Paso 6. Verificar el contexto — scite
 
 Ver [07-scite.md](07-scite.md).
 
@@ -97,20 +110,20 @@ Ver [07-scite.md](07-scite.md).
 
 **Resultado esperado:** la lista de artículos clave con su contexto de citas verificado, para citar solo trabajos que siguen vigentes.
 
-## Paso 6. Descubrir más — Research Rabbit
+## Paso 7. Descubrir más — Research Rabbit
 
 Ver [08-research-rabbit.md](08-research-rabbit.md).
 
 - Entra a https://researchrabbit.ai.
 - Crea una colección llamada "RNA-seq Chlorella Scenedesmus luz azul roja".
 - Añade como semilla el DOI 10.1007/s10811-024-03426-4 y los artículos clave de tu tabla.
-- Explora Similar Works (trabajos parecidos), Earlier Works (anteriores) y Later Works (posteriores) para encontrar literatura que no apareció en los pasos 1 y 4.
+- Explora Similar Works (trabajos parecidos), Earlier Works (anteriores) y Later Works (posteriores) para encontrar literatura que no apareció en los pasos 1, 2 y 5.
 - Revisa la red de autores: quiénes publican más sobre luz y lípidos en microalgas.
 - Añade los artículos nuevos a la colección y expórtalos a Zotero.
 
 **Resultado esperado:** la colección completa del artículo de RNA-seq, con la literatura relacionada que no habías encontrado por búsqueda directa.
 
-## Paso 7. Citar — Zotero
+## Paso 8. Citar — Zotero
 
 Ver [06-zotero.md](06-zotero.md).
 
@@ -122,7 +135,7 @@ Ver [06-zotero.md](06-zotero.md).
 
 **Resultado esperado:** el manuscrito en Word con las citas insertadas y la bibliografía generada en el estilo de la revista elegida.
 
-## Paso 8. Organizar y preparar — NotebookLM (Gemini Notebook)
+## Paso 9. Organizar y preparar — NotebookLM
 
 Ver [09-notebooklm.md](09-notebooklm.md).
 
@@ -134,19 +147,19 @@ Ver [09-notebooklm.md](09-notebooklm.md).
 
 **Resultado esperado:** un cuaderno con el resumen de la literatura y material listo para preparar la clase y revisar el manuscrito.
 
-## Paso 9. Redactar y traducir — DeepL
+## Paso 10. Redactar y traducir — DeepL
 
 Ver [05-deepl.md](05-deepl.md).
 
 - Escribe el manuscrito en español en Word (o el borrador del resumen).
 - Entra a https://deepl.com/translator y traduce el documento completo al inglés, conservando el formato.
 - Configura el glosario con los términos de tu área antes de traducir, por ejemplo:
-  - luz azul → blue light
-  - luz roja → red light
-  - acumulación de lípidos → lipid accumulation
-  - tasa de crecimiento → growth rate
-  - ensamblaje de novo del genoma → de novo genome assembly
-  - biorremediación de aguas residuales → wastewater bioremediation
+  - blue light → luz azul
+  - red light → luz roja
+  - lipid accumulation → acumulación de lípidos
+  - growth rate → tasa de crecimiento
+  - de novo genome assembly → ensamblaje de novo del genoma
+  - wastewater bioremediation → biorremediación de aguas residuales
 - Usa DeepL Write para pulir la redacción del resumen y de la discusión.
 - Revisa la traducción frase por frase: nunca aceptes una traducción sin leerla, y corrige los términos técnicos que DeepL haya traducido mal.
 
@@ -156,15 +169,16 @@ Ver [05-deepl.md](05-deepl.md).
 
 | Paso | Herramienta | Qué obtienes |
 |---|---|---|
-| 1 | Semantic Scholar | Lista de artículos y PDFs |
-| 2 | Consensus | Respuestas validadas con evidencia |
-| 3 | Elicit | Tabla comparativa de datos |
-| 4 | Connected Papers | Mapa de la literatura y artículos seminales |
-| 5 | scite | Contexto de citas verificado |
-| 6 | Research Rabbit | Colección completa de literatura relacionada |
-| 7 | Zotero | Referencias organizadas y citas en Word |
-| 8 | NotebookLM (Gemini Notebook) | Resumen, guía de estudio y material de clase |
-| 9 | DeepL | Manuscrito traducido y pulido |
+| 1 | Búsqueda automática | Artículos por tema (7 repositorios, sin duplicados), revistas candidatas y PDFs libres |
+| 2 | Semantic Scholar | Lista de artículos y PDFs |
+| 3 | Consensus | Respuestas validadas con evidencia |
+| 4 | Elicit | Tabla comparativa de datos |
+| 5 | Connected Papers | Mapa de la literatura y artículos seminales |
+| 6 | scite | Contexto de citas verificado |
+| 7 | Research Rabbit | Colección completa de literatura relacionada |
+| 8 | Zotero | Referencias organizadas y citas en Word |
+| 9 | NotebookLM | Resumen, guía de estudio y material de clase |
+| 10 | DeepL | Manuscrito traducido y pulido |
 
 ## Qué aprendimos
 
