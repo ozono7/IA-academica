@@ -6,62 +6,10 @@
 # Material académico para estudiantes
 # Repositorio IA-academica — Herramienta 11: Búsqueda automática de artículos
 
-# 11 — Búsqueda automática de artículos, ideas de revistas y descarga de PDFs
-#
-# Qué hace este script (todo de forma automática, desde R):
-#   1. Busca un tema en varios repositorios a la vez (PubMed, Europe PMC,
-#      Semantic Scholar, OpenAlex, Crossref, arXiv y CORE), junta los
-#      resultados y elimina duplicados por DOI.
-#   2. Para cada artículo regresa: título, año, revista, autores, resumen
-#      (abstract), DOI y PMID, e indica en qué fuente se encontró.
-#   3. Busca ideas de revistas en Scimago Journal Rank (por área y cuartil)
-#      y en Springer (API de Springer Nature o enlace de búsqueda).
-#   4. Descarga automáticamente los PDFs libres (acceso abierto) a la
-#      carpeta pdfs/, con un límite máximo de 120 PDFs (los más recientes
-#      primero). Los artículos sin PDF libre quedan anotados en la tabla.
-#
-# Archivos que genera (en la misma carpeta del script):
-#   - tabla_articulos.csv: un renglón por artículo único, con sus datos,
-#     la fuente donde se encontró y si su PDF se descargó.
-#   - revistas_sugeridas.csv: revistas candidatas por área y cuartil
-#     (SJR, cuartil, índice H, editorial, país y enlace a Springer).
-#   - revistas_springer.csv: revistas de Springer entre las sugeridas.
-#   - pdfs/: carpeta con los PDFs descargados (no se sube a GitHub).
-#   - articulos_por_anio.png: gráfico de barras con los artículos por año.
-#
-# Paquetes necesarios (instalar una sola vez en R):
-#   install.packages(c("httr", "jsonlite", "dplyr", "readr", "ggplot2",
-#                      "xml2"))
-#
-# Cómo se usa:
-#   1. Edita la sección CONFIGURACIÓN (el tema, tu correo y los límites).
-#   2. Para Scimago: descarga el archivo CSV del ranking en
-#      https://www.scimagojr.com/journalrank.php (botón Download, formato
-#      CSV) y guárdalo como "scimago_journalrank.csv" junto al script.
-#      La descarga directa desde R no funciona porque el sitio bloquea
-#      robots (Cloudflare); por eso se descarga a mano una sola vez.
-#   3. Corre el script completo en R o RStudio (o Positron). Tarda varios
-#      minutos porque consulta muchas APIs con pausas entre llamadas.
-#   4. Revisa tabla_articulos.csv y revistas_sugeridas.csv.
-#
-# Notas sobre las APIs (verificadas el 2026-11-09):
-#   - PubMed (E-utilities), Europe PMC, Crossref y arXiv: gratuitas, sin
-#     clave. Se usan con httr + jsonlite, sin el paquete rentrez.
-#   - Semantic Scholar y OpenAlex: gratuitas, sin clave, pero con límite
-#     de peticiones por minuto/día compartido por IP. Si devuelven error
-#     429 (Too Many Requests), el script espera y reintenta una vez; si
-#     sigue fallando, avisa y sigue con las demás fuentes. Para uso
-#     frecuente conviene pedir una clave gratuita (Semantic Scholar y
-#     OpenAlex la dan gratis) y ponerla en las variables de abajo.
-#   - CORE: funciona sin clave para búsquedas pequeñas.
-#   - Unpaywall: gratuita, sin clave; pide un correo para identificar el
-#     uso. Sirve para saber si un artículo es de acceso abierto y para
-#     obtener el enlace directo al PDF.
-#   - Springer Nature API: pide clave gratuita (registro en
-#     https://dev.springernature.com/). Sin clave, el script genera el
-#     enlace de búsqueda de Springer para cada revista candidata.
-#   - La página de listado de Springer (link.springer.com/journals) pide
-#     cookies y no se puede leer desde R: no se usa.
+# Busca un tema en 7 repositorios, elimina duplicados por DOI, sugiere revistas
+# (Scimago y Springer) y descarga los PDFs libres (máx. 120) a pdfs/.
+# Genera tabla_articulos.csv, revistas_sugeridas.csv y articulos_por_anio.png.
+# Paquetes: httr, jsonlite, dplyr, readr, ggplot2, xml2.
 
 library(httr)
 library(jsonlite)
@@ -77,6 +25,10 @@ library(xml2)
 }
 
 # ---------------------------------------------------------------------------
+# Uso: edita el tema, tu correo y los límites en esta sección y corre el
+# script completo. Tarda varios minutos porque consulta muchas APIs con
+# pausas entre llamadas. Revisa tabla_articulos.csv y revistas_sugeridas.csv.
+
 # CONFIGURACIÓN: edita estas líneas para cada búsqueda
 # ---------------------------------------------------------------------------
 
@@ -109,7 +61,8 @@ clave_springer <- ""
 areas_scimago <- c("Biotechnology", "Plant Science", "Environmental Science")
 cuartiles_aceptados <- c("Q1", "Q2")
 
-# Archivo CSV del ranking de Scimago (descargado a mano, ver arriba).
+# Archivo CSV del ranking de Scimago, descargado a mano desde
+# https://www.scimagojr.com/journalrank.php (botón Download, formato CSV).
 archivo_scimago <- "scimago_journalrank.csv"
 
 # ---------------------------------------------------------------------------
@@ -746,8 +699,8 @@ descargar_pdfs <- function(tabla, carpeta = "pdfs", max_pdfs = 120,
 #     porque el sitio bloquea las descargas automáticas (Cloudflare).
 #     El script lee ese archivo, calcula el cuartil dentro de cada categoría
 #     (Q1 = 25 % con SJR más alto de su categoría, y así sucesivamente) y
-#     filtra por las áreas y los cuartiles que se pidan. No inventa valores:
-#     todo sale del archivo descargado.
+#     filtra por las áreas y los cuartiles que se pidan. Los valores de SJR,
+#     cuartil e índice H se toman del archivo descargado.
 # ---------------------------------------------------------------------------
 
 buscar_revistas_scimago <- function(archivo, areas, cuartiles) {
