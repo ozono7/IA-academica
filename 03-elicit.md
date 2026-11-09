@@ -5,12 +5,12 @@
 #
 # Material académico para estudiantes
 
-# Elicit: extraer datos de artículos a una tabla comparativa
+# 03 — Elicit: extraer datos de artículos a una tabla comparativa
 
 > Enlaces oficiales: [elicit.com](https://elicit.com) · [Precios](https://elicit.com/pricing)
 > Datos de esta guía verificados el 2026-11-09 en la página oficial de precios de Elicit.
 
-## ¿Qué problema resuelve?
+## 1. ¿Qué problema resuelve?
 
 Cuando se prepara un artículo o una revisión de literatura, el trabajo más lento es abrir artículo por artículo y copiar a mano los mismos datos: qué especie se estudió, en qué condiciones de luz se cultivó, cuánto lípido acumuló, qué método se usó para medirlo. Con 10 o 15 artículos, esa copia manual toma días y es fácil equivocarse en un número o en una unidad.
 
@@ -22,7 +22,7 @@ Elicit resuelve ese problema en tres casos concretos de las áreas de trabajo de
 
 En los tres casos, la pregunta que Elicit contesta es la misma: "de estos 10 artículos, dame los mismos datos de cada uno, en columnas, para poder compararlos".
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 Elicit es un asistente de investigación con IA que busca en una base de más de 138 millones de artículos académicos y hace tres cosas:
 
@@ -32,7 +32,7 @@ Elicit es un asistente de investigación con IA que busca en una base de más de
 
 También permite chatear con el texto completo de un artículo (preguntarle cosas sobre ese artículo en concreto) e importar referencias desde Zotero.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Crear la cuenta gratuita
 
@@ -84,7 +84,7 @@ No se necesita tarjeta de crédito para el plan gratuito (Basic).
 2. Elegir el formato: **CSV** para abrirlo en Excel o en R, o **RIS / BIB** para llevar las referencias a Zotero.
 3. Guardar el archivo con un nombre claro, por ejemplo `elicit_lipidos_luz_azul_roja.csv`.
 
-## Ejemplo trabajado: lípidos en microalgas bajo luz azul y roja
+## 4. Ejemplo trabajado: lípidos en microalgas bajo luz azul y roja
 
 **Objetivo:** comparar en una tabla los artículos que midieron acumulación de lípidos en *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja, para usar esa comparación en la discusión del artículo de RNA-seq sobre estas dos especies.
 
@@ -128,7 +128,7 @@ Los valores de esta tabla son un ejemplo del formato que se espera; los valores 
 
 **Segundo uso del mismo ejemplo, con biorremediación:** con la misma tabla, se cambia la pregunta de búsqueda a *"How do Chlorella vulgaris and Scenedesmus acutus remove nitrogen and phosphorus from wastewater?"* (Traducción: "¿Cómo eliminan *Chlorella vulgaris* y *Scenedesmus acutus* el nitrógeno y el fósforo de las aguas residuales?") y las columnas a: especie, contaminante eliminado, concentración inicial, porcentaje de remoción, tiempo de tratamiento en días y tipo de agua residual. El procedimiento de verificación es el mismo: clic en la celda, leer el párrafo fuente, comprobar número y unidad.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - **Comprobar cada número antes de citarlo.** Elicit extrae los datos con IA y puede confundir un valor con otro de la misma tabla, cambiar la unidad o asignar el dato a la condición de luz equivocada. Ningún dato de la tabla se cita en un manuscrito sin haber visto el párrafo fuente. La propia página de Elicit indica que los resultados deben revisarse.
 - **Las columnas son preguntas: entre más precisa la pregunta, mejor la respuesta.** *"What was the lipid content?"* da respuestas vagas. *"What was the lipid content as percentage of dry weight?"* da el número con su unidad. Incluir la unidad en la pregunta.
@@ -138,7 +138,7 @@ Los valores de esta tabla son un ejemplo del formato que se espera; los valores 
 - **Guardar la exportación con fecha.** Los planes gratuitos tienen un uso mensual limitado; exportar la tabla a CSV al terminar evita tener que repetir la extracción el mes siguiente.
 - **Usar las revistas candidatas como filtro de calidad.** Al elegir los artículos de la tabla, dar prioridad a los publicados en revistas como *Plant Biotechnology Journal*, *Bioresource Technology*, *Chemosphere* o *Science of the Total Environment*, que son las revistas candidatas para los artículos de estas áreas.
 
-## Costo (gratis vs pago)
+## 6. Costo
 
 Precios consultados el 2026-11-09 en la página oficial [elicit.com/pricing](https://elicit.com/pricing). Elicit muestra dos listas de precios según un selector: Académico (Academic) e Industria (Industry). Los precios siguientes son de la lista académica, que es la que corresponde a un docente universitario; la lista de industria es más cara para los mismos planes. Los precios pueden cambiar: verificar en la página oficial antes de pagar.
 
@@ -151,10 +151,15 @@ Precios consultados el 2026-11-09 en la página oficial [elicit.com/pricing](htt
 
 El plan gratuito (Basic) alcanza para buscar artículos, leer resúmenes y chatear con los textos. Para exportar la tabla a CSV y añadir más columnas, se necesita al menos el plan Plus. El número exacto de PDFs que el plan gratuito permite extraer al mes no está publicado en la página oficial de precios: verificar en la página oficial antes de planear una extracción grande.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - Elicit convierte una lista de artículos en una tabla comparativa: cada columna es una pregunta en inglés y cada celda es la respuesta que Elicit encontró en ese artículo.
 - Para lípidos en microalgas bajo luz azul y roja, las columnas que se piden son: especie, condiciones de luz con longitud de onda e intensidad, contenido de lípidos en % de peso seco, tasa de crecimiento mu en 1/día y método de medición de lípidos.
 - Hacer clic en una celda muestra el párrafo exacto del artículo de donde salió el dato, y ese párrafo es lo que se revisa para comprobar número, unidad y condición experimental antes de citar el dato.
 - El plan gratuito incluye búsqueda, resúmenes y chat sin límite en más de 138 millones de artículos, con uso limitado del Agente de Investigación y de los informes; la exportación a CSV y las 5 columnas por tabla llegan con el plan Plus académico ($11 USD al mes, facturado anualmente).
 - Las preguntas y las columnas se escriben en inglés, y entre más precisa sea la pregunta (con la unidad incluida), mejor es el dato que Elicit devuelve.
+
+## 8. Enlaces
+
+- Elicit: https://elicit.com
+- Precios de Elicit: https://elicit.com/pricing

@@ -64,7 +64,7 @@ En la columna izquierda de la página de resultados encontrarás los filtros. Ú
 1. Haz clic en el título de un resultado.
 2. En la página del artículo verás el resumen (*Abstract*), los autores, la revista, el año y el número de citas.
 3. Si hay un botón **PDF** o **View PDF**, haz clic para abrir el texto completo. Si no hay PDF, el botón **View on Publisher Site** te lleva a la página de la editorial.
-4. Baja hasta la sección **Citations** para ver qué trabajos cita este artículo, y hasta **References** para ver los trabajos que lo han citado después. Esa es la forma más rápida de ampliar la búsqueda: un buen artículo te lleva a otros diez.
+4. Baja hasta la sección **References** para ver qué trabajos cita este artículo, y hasta **Citations** para ver los trabajos que lo han citado después. Esa es la forma más rápida de ampliar la búsqueda: un buen artículo te lleva a otros diez.
 
 ### Paso 5. Guardar artículos en tu biblioteca
 
@@ -171,3 +171,8 @@ Verificar en la página oficial si algo cambia: <https://semanticscholar.org/faq
 - El artículo de Torres-Martínez (2025), DOI 10.1007/s10811-024-03426-4, se localiza buscando por autor, tema o DOI, y su ficha muestra quién lo ha citado desde su publicación.
 - Semantic Reader ayuda a leer artículos compatibles mostrando el contexto de cada cita y definiciones de términos sin salir del texto, pero no está disponible para todos los PDF.
 - Guardar los artículos en carpetas por tema y activar alertas convierte una búsqueda aislada en una biblioteca que se mantiene actualizada para los artículos en curso.
+
+## 8. Enlaces
+
+- Semantic Scholar: https://semanticscholar.org
+- Preguntas frecuentes de Semantic Scholar: https://semanticscholar.org/faq

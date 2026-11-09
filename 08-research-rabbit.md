@@ -5,11 +5,12 @@
 #
 # Material académico para estudiantes
 
-# 08. Research Rabbit: descubrir literatura relacionada a partir de artículos semilla
+# 08 — Research Rabbit: descubrir literatura relacionada a partir de artículos semilla
 
-Enlace oficial: https://www.researchrabbit.ai
+> Enlace oficial: <https://www.researchrabbit.ai>
+> Página de precios oficial: <https://www.researchrabbit.ai/pricing>
 
-## ¿Qué problema resuelve?
+## 1. ¿Qué problema resuelve?
 
 Cuando se busca literatura con palabras clave, se encuentran los artículos que usan esas palabras exactas. Los artículos que tratan el mismo tema con otras palabras, los de grupos que trabajan en paralelo y los trabajos anteriores que sentaron las bases no siempre aparecen. Eso pasa con frecuencia en temas como el RNA-seq de microalgas, donde un mismo proceso se describe con términos distintos: expresión diferencial, transcriptoma, rutas metabólicas, genes de respuesta a luz.
 
@@ -19,7 +20,7 @@ Research Rabbit resuelve ese problema partiendo de artículos que ya se conocen 
 - **Biorremediación de aguas residuales con microalgas:** a partir de un artículo sobre remoción de nutrientes, descubrir los trabajos que estudiaron otras especies, otras aguas residuales y otras condiciones de cultivo.
 - **Ensamblaje de novo del genoma de Chlorella vulgaris:** a partir de un artículo sobre ensamblaje y anotación, descubrir los trabajos que usaron ese ensamblaje, los que propusieron otros métodos y los genomas de especies cercanas.
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 Research Rabbit es una herramienta de descubrimiento visual de literatura. Funciona con **artículos semilla** (seed papers): artículos que el usuario elige como punto de partida. A partir de ellos, la herramienta recomienda artículos relacionados y los organiza en colecciones.
 
@@ -37,7 +38,7 @@ Lo que muestra y permite hacer:
 
 Research Rabbit busca en un corpus de más de 310 millones de artículos, según su página oficial de precios consultada en noviembre de 2026. La herramienta aprende de la colección: cada artículo que se añade como semilla o se guarda en la colección ajusta las recomendaciones siguientes.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Crear la cuenta
 
@@ -94,7 +95,7 @@ Research Rabbit busca en un corpus de más de 310 millones de artículos, según
 2. Cuando la colección esté completa, haz clic en la opción de exportar y elige **BibTeX**, **RIS** o **CSV**.
 3. Importa el archivo exportado en Zotero para tener las referencias listas para citar en Word.
 
-## Ejemplo trabajado: descubrir literatura para el artículo de RNA-seq a partir del artículo de 2025
+## 4. Ejemplo trabajado: descubrir literatura para el artículo de RNA-seq a partir del artículo de 2025
 
 Este ejemplo usa como semilla el artículo publicado por Juan y sus coautores:
 
@@ -184,7 +185,7 @@ Exporta la colección en BibTeX e impórtala en Zotero. Revisa en Zotero que los
 
 Al terminar este ejemplo se tiene una colección con el artículo de 2025 como semilla, dos semillas adicionales de RNA-seq, una lista de trabajos similares, anteriores y posteriores, y una lista de autores del tema. Cada artículo guardado tiene una nota que dice para qué sirve. La colección exportada a Zotero queda lista para citar en el manuscrito del artículo de RNA-seq, que tiene como revistas candidatas *Plant Biotechnology Journal* y *Bioresource Technology*.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - Research Rabbit recomienda a partir de los artículos semilla. Si las semillas son pocas o poco representativas, las recomendaciones también lo serán. Conviene empezar con el artículo propio y añadir dos o tres semillas más del tema.
 - La herramienta no lee los artículos completos para recomendar: usa citas, referencias y autores. Un artículo muy relacionado que no comparte citas con las semillas puede no aparecer. Por eso conviene combinar Research Rabbit con una búsqueda por palabras clave en otra base de datos.
@@ -195,13 +196,13 @@ Al terminar este ejemplo se tiene una colección con el artículo de 2025 como s
 - Research Rabbit no descarga los PDF. Para leer el texto completo hay que ir al enlace del artículo o a la biblioteca de la institución.
 - Para las clases, una colección por tema (RNA-seq, biorremediación, genoma) sirve como lista de lectura organizada. Compartir la colección con los estudiantes les da un punto de partida ordenado, con los artículos semilla como lectura inicial.
 
-## Costo
+## 6. Costo
 
 Research Rabbit tiene un plan gratuito permanente. Según su página oficial de precios, consultada en noviembre de 2026 (https://www.researchrabbit.ai/pricing), el plan **Free Forever** cuesta 0 dólares e incluye: búsquedas ilimitadas en más de 310 millones de artículos, biblioteca y colecciones ilimitadas, colaboración compartiendo colecciones y hasta 50 artículos semilla, con los ajustes básicos de búsqueda.
 
 El plan de pago se llama **ResearchRabbit+ (RR+)**. Según la misma página oficial, el precio base es de 10 dólares al mes, con descuentos por país en más de 100 países. En la página aparecen también 12,50 dólares al mes según la forma de pago, por lo que conviene verificar en la página oficial cuál corresponde a la facturación mensual y cuál a la anual antes de pagar. RR+ amplía el límite a 300 artículos semilla, añade controles avanzados de búsqueda, varios proyectos y alertas Signals. Para una revisión enfocada con menos de 50 semillas, el plan gratuito es suficiente.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - Research Rabbit descubre literatura a partir de artículos semilla, por citas, referencias y autores, no solo por palabras clave.
 - El artículo de 2025 (DOI 10.1007/s10811-024-03426-4) sirve como semilla para construir la colección del artículo de RNA-seq sobre *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja.
@@ -209,7 +210,7 @@ El plan de pago se llama **ResearchRabbit+ (RR+)**. Según la misma página ofic
 - La red de autores identifica quiénes trabajan en el tema y qué grupos conviene seguir y citar.
 - La colección se organiza con notas por artículo y se exporta en BibTeX, RIS o CSV para importarla en Zotero.
 
-## Enlaces
+## 8. Enlaces
 
 - Research Rabbit: https://www.researchrabbit.ai
 - Precios de Research Rabbit: https://www.researchrabbit.ai/pricing

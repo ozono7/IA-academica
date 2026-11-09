@@ -199,3 +199,8 @@ También se reporta un descuento para estudiantes y personal académico con cred
 - El medidor clasifica solo entre 5 y 20 artículos relevantes para esa pregunta, así que no es una revisión sistemática: es un punto de partida que debe confirmarse leyendo los artículos originales.
 - Filtrar por Systematic Reviews refuerza la conclusión: si las revisiones sistemáticas coinciden con el medidor general, la afirmación tiene un respaldo más sólido.
 - El plan gratuito cubre lo esencial (búsqueda y medidor ilimitados) y limita solo los análisis Pro y las revisiones profundas; los números exactos de esos límites se confirman en la página oficial de precios.
+
+## 8. Enlaces
+
+- Consensus: https://consensus.app
+- Precios de Consensus: https://consensus.app/pricing

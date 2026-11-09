@@ -5,12 +5,12 @@
 #
 # Material académico para estudiantes
 
-# Connected Papers: mapear las relaciones entre artículos en un gráfico
+# 04 — Connected Papers: mapear las relaciones entre artículos en un gráfico
 
 > Enlaces oficiales: [connectedpapers.com](https://www.connectedpapers.com) · [Precios y preguntas frecuentes](https://www.connectedpapers.com/pricing)
 > Datos de esta guía verificados el 2026-11-09 en la página oficial de precios de Connected Papers.
 
-## ¿Qué problema resuelve?
+## 1. ¿Qué problema resuelve?
 
 Cuando se entra a un tema nuevo, o cuando se prepara la introducción de un artículo, la lista de resultados de un buscador no dice qué artículos son los importantes ni cómo se relacionan entre sí. Se pueden leer 30 resúmenes sin saber cuál fue el trabajo que inició el tema, cuáles son los trabajos más citados y cuáles son los avances más recientes.
 
@@ -22,7 +22,7 @@ Connected Papers resuelve ese problema en tres casos concretos de las áreas de 
 
 En los tres casos, la pregunta que Connected Papers contesta es la misma: "dado este artículo que ya conozco, ¿cuáles son los artículos más relacionados con él, cuáles vinieron antes y cuáles vinieron después?".
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 Connected Papers construye un gráfico visual a partir de un solo artículo, llamado artículo semilla. En ese gráfico:
 
@@ -40,7 +40,7 @@ Además del gráfico, la página muestra tres listas:
 
 Connected Papers usa los datos de Semantic Scholar, una base de cientos de millones de artículos.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Crear la cuenta gratuita
 
@@ -88,7 +88,7 @@ Si se pega un DOI, asegurarse de copiarlo completo, sin espacios al inicio ni al
 2. Los artículos guardados quedan en la cuenta y se pueden exportar en formato BibTeX para llevarlos a Zotero.
 3. Repetir el gráfico con otro artículo semilla si el tema tiene dos subtemas claros: por ejemplo, un gráfico para luz azul y roja, y otro gráfico para biorremediación. Cada gráfico consume uno de los 5 gráficos gratuitos del mes, así que conviene planear qué semillas se van a usar.
 
-## Ejemplo trabajado: partir del artículo de 2025 sobre lípidos bajo luz azul y roja
+## 4. Ejemplo trabajado: partir del artículo de 2025 sobre lípidos bajo luz azul y roja
 
 **Objetivo:** construir el mapa de la literatura alrededor del artículo publicado sobre acumulación de lípidos en *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja, para escribir la introducción del artículo de RNA-seq y encontrar los trabajos que hay que citar.
 
@@ -129,7 +129,7 @@ Si se pega un DOI, asegurarse de copiarlo completo, sin espacios al inicio ni al
 
 **Segundo gráfico con el mismo procedimiento, para biorremediación:** usar como semilla un artículo clave sobre remoción de nitrógeno y fósforo de aguas residuales con *Chlorella vulgaris*. En su gráfico, los círculos grandes serán los trabajos clásicos de tratamiento de aguas con microalgas; en Prior Works estarán los primeros sistemas de cultivo en aguas residuales; y en Derivative Works estarán los trabajos recientes sobre remoción de fármacos y metales. Un tercer gráfico posible es uno con semilla en ensamblaje de novo del genoma de *Chlorella vulgaris*, para encontrar qué ensambladores y qué estrategias de anotación usan los grupos de genómica de microalgas.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - **El gráfico muestra similitud, no citas directas.** Que dos artículos estén conectados no quiere decir que uno cite al otro: quiere decir que citan a los mismos trabajos o que son citados juntos por otros. Para saber si un artículo cita a otro, se revisa su lista de referencias. Connected Papers lo dice en su propia documentación: el gráfico no es un árbol de citas.
 - **Un gráfico no basta para una revisión completa.** Connected Papers muestra unos 50 artículos alrededor de una semilla. Para una revisión sistemática, ese mapa se combina con una búsqueda por palabras clave y con la tabla comparativa de Elicit.
@@ -139,7 +139,7 @@ Si se pega un DOI, asegurarse de copiarlo completo, sin espacios al inicio ni al
 - **Guardar los artículos en el momento.** Marcar con **Save** los artículos que se van a leer y exportar la lista en BibTeX a Zotero antes de cerrar la página, para no tener que reconstruir el gráfico después.
 - **Usar las revistas candidatas como referencia de calidad.** Al elegir qué artículos del gráfico leer completos, dar prioridad a los publicados en revistas como *Plant Biotechnology Journal*, *Bioresource Technology*, *Chemosphere* o *Science of the Total Environment*, que son las revistas candidatas para los artículos de estas áreas.
 
-## Costo (gratis vs pago)
+## 6. Costo
 
 Precios y límites consultados el 2026-11-09 en la página oficial [connectedpapers.com/pricing](https://www.connectedpapers.com/pricing). El plan gratuito incluye todas las funciones; lo que cambia entre planes es el número de gráficos al mes.
 
@@ -151,10 +151,15 @@ Precios y límites consultados el 2026-11-09 en la página oficial [connectedpap
 
 Hay además un programa de becas: quien hace investigación y no puede pagar una suscripción puede escribir a scholarships@connectedpapers.com para pedir un plan Premium con descuento o gratuito. El pago lo procesa PayPro Global y la suscripción se renueva automáticamente, pero se puede cancelar en cualquier momento.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - Connected Papers construye un gráfico a partir de un solo artículo semilla: el tamaño del círculo indica las citas recibidas, el color indica el año y las líneas indican similitud entre artículos, no citas directas.
 - Con el DOI `10.1007/s10811-024-03426-4` (Torres-Martínez, 2025, lípidos en *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja) como semilla, el gráfico muestra los trabajos más relacionados con ese tema.
 - En Prior Works están los orígenes del tema, y el artículo seminal se identifica porque es antiguo, tiene un círculo grande, está conectado con muchos artículos del gráfico y trata el tema central.
 - En Derivative Works están los avances recientes: ahí se buscan los trabajos de 2025 y 2026, incluidos los de RNA-seq en microalgas, que son los referentes directos del artículo en preparación.
 - El plan gratuito incluye todas las funciones y permite 5 gráficos al mes con cuenta (unos 2 sin cuenta); el plan Academic quita ese límite y su precio exacto depende del país, por lo que se verifica en la página oficial.
+
+## 8. Enlaces
+
+- Connected Papers: https://www.connectedpapers.com
+- Precios de Connected Papers: https://www.connectedpapers.com/pricing

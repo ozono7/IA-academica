@@ -39,7 +39,7 @@ El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las 9 herrami
 5. **Verificar el contexto** — scite: revisar si los artículos clave han sido apoyados o refutados por citas posteriores.
 6. **Descubrir más** — Research Rabbit: usar los artículos semilla para encontrar literatura relacionada y organizar la colección del artículo de RNA-seq.
 7. **Citar** — Zotero: guardar las referencias en la colección del proyecto, importar los PDFs y citar en Word con el estilo de la revista elegida.
-8. **Organizar y preparar** — NotebookLM: subir las fuentes, generar un resumen y una guía de estudio, y preparar material de clase.
+8. **Organizar y preparar** — NotebookLM (Gemini Notebook): subir las fuentes, generar un resumen y una guía de estudio, y preparar material de clase.
 9. **Redactar y traducir** — DeepL: traducir el manuscrito al inglés y pulir la redacción con el glosario de términos del área.
 
 ## Cómo usar este repositorio

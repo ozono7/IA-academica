@@ -5,11 +5,11 @@
 #
 # Material académico para estudiantes
 
-# 09. NotebookLM: preparar clases y revisar literatura a partir de tus propias fuentes
+# 09 — NotebookLM (Gemini Notebook): preparar clases y revisar literatura a partir de tus propias fuentes
 
-Enlace oficial: https://notebooklm.google.com
+> Enlace oficial: <https://notebooklm.google.com> (redirige a <https://notebook.google.com>)
 
-## ¿Qué problema resuelve?
+## 1. ¿Qué problema resuelve?
 
 Preparar una clase o una revisión de literatura obliga a tener varios artículos abiertos a la vez y a comparar lo que dice cada uno: qué especie se usó, qué condiciones de cultivo, qué se midió y qué resultado se obtuvo. Cuando los artículos son muchos, es fácil mezclar los datos de uno con los de otro o olvidar en qué artículo estaba un dato concreto.
 
@@ -19,7 +19,7 @@ NotebookLM resuelve ese problema reuniendo las fuentes en un solo cuaderno y per
 - **Chlorella vulgaris y Scenedesmus acutus bajo luz azul y roja:** subir los artículos sobre crecimiento, lípidos y RNA-seq, y preparar una clase que compare qué hace la luz azul y qué hace la luz roja en cada especie.
 - **Ensamblaje de novo del genoma de Chlorella vulgaris:** subir los artículos sobre ensamblaje, anotación y genomas de microalgas, y preguntar qué métodos se usaron, qué programas y qué resultados de calidad reportó cada trabajo.
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 NotebookLM es el asistente de investigación de Google basado en fuentes. En julio de 2026 Google lo renombró como **Gemini Notebook**. La dirección https://notebooklm.google.com sigue funcionando y redirige al producto, cuya dirección nueva es https://notebook.google.com
 
@@ -38,7 +38,7 @@ Lo que hace, en concreto:
 
 El punto central es este: NotebookLM solo responde con base en las fuentes que se suben al cuaderno. No busca en la web para responder. Si un dato no está en las fuentes subidas, NotebookLM no lo tiene. Por eso las respuestas se verifican siempre contra los PDF originales.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Entrar a NotebookLM
 
@@ -117,7 +117,7 @@ También se puede preguntar en español. Si las fuentes están en inglés, convi
 3. Abre el PDF original y busca ese dato: especie, condición, número y unidad.
 4. Si el dato coincide, se puede usar. Si no coincide o si el fragmento no dice lo que la respuesta afirma, se corrige con lo que dice el PDF.
 
-## Ejemplo trabajado: preparar una clase sobre biorremediación de aguas residuales con microalgas
+## 4. Ejemplo trabajado: preparar una clase sobre biorremediación de aguas residuales con microalgas
 
 ### Objetivo del ejemplo
 
@@ -216,7 +216,7 @@ Genera el **Audio Overview** y escúchalo antes de la clase. Si el audio mencion
 
 Al terminar este ejemplo se tiene: un cuaderno con los PDF de biorremediación, una tabla comparativa verificada contra los PDF (especie, agua residual, remoción de nitrógeno y fósforo, tiempo), una guía de estudio, un mapa mental y 5 preguntas para los estudiantes con sus respuestas verificadas. Ese material sirve para dar la clase y también como base para la revisión de literatura sobre biorremediación con microalgas.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - NotebookLM solo responde con base en las fuentes subidas al cuaderno. No inventa datos de la web, pero tampoco sabe lo que no está en las fuentes. Si una pregunta no se puede responder con las fuentes subidas, la respuesta lo debe indicar o dar una respuesta incompleta. En ese caso, hay que subir la fuente que falta.
 - Cada respuesta trae citas con el número de la fuente. Hay que hacer clic en esos números y leer el fragmento antes de usar la respuesta en clase o en un manuscrito. Una cita no garantiza que el dato esté bien interpretado.
@@ -228,7 +228,7 @@ Al terminar este ejemplo se tiene: un cuaderno con los PDF de biorremediación, 
 - Para citar en un manuscrito, las referencias se toman de Zotero o del PDF original, no de NotebookLM. NotebookLM ayuda a encontrar y comparar la información, pero la referencia formal sale del artículo.
 - Conviene no subir al cuaderno manuscritos con datos que todavía no se quieren compartir. NotebookLM es un servicio de Google y las fuentes subidas quedan en la cuenta de Google. Para material sensible, conviene revisar la configuración de privacidad de la cuenta antes de subirlo.
 
-## Costo
+## 6. Costo
 
 NotebookLM es gratuito con una cuenta personal de Google. No es una prueba: el plan gratuito se llama **Gemini Notebook Standard** y no pide tarjeta de crédito.
 
@@ -236,7 +236,7 @@ Según la documentación de Google y fuentes secundarias consultadas en noviembr
 
 Los planes de pago se venden como suscripciones de Google AI, no como un plan propio de NotebookLM. Según fuentes secundarias de noviembre de 2026, los precios en Estados Unidos son: Google AI Plus 4,99 dólares al mes, Google AI Pro 19,99 dólares al mes y Google AI Ultra desde 99,99 dólares al mes. Esos planes amplían los límites: Plus hasta 200 cuadernos y 100 fuentes por cuaderno, Pro hasta 500 cuadernos y 300 fuentes por cuaderno. Los precios en México pueden ser distintos: verificar en la página oficial antes de pagar. Para preparar clases y revisar literatura, el plan gratuito es suficiente.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - NotebookLM reúne las fuentes de un tema en un cuaderno y responde solo con base en esas fuentes, citando de qué fuente salió cada afirmación.
 - Para preparar la clase de biorremediación, se suben los PDF de los artículos, se pide una tabla comparativa por especie, agua residual, remoción de nitrógeno y fósforo, y tiempo, y cada fila se verifica contra su PDF.
@@ -244,7 +244,7 @@ Los planes de pago se venden como suscripciones de Google AI, no como un plan pr
 - NotebookLM no sustituye la lectura de los artículos: cada respuesta se verifica haciendo clic en el número de fuente y leyendo el fragmento y el PDF original.
 - El plan gratuito incluye 100 cuadernos y 50 fuentes por cuaderno, con hasta 500.000 palabras o 200 MB por fuente, y es suficiente para preparar clases y revisar literatura.
 
-## Enlaces
+## 8. Enlaces
 
 - NotebookLM: https://notebooklm.google.com
 - Gemini Notebook (dirección nueva): https://notebook.google.com

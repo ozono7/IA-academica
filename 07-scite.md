@@ -5,11 +5,12 @@
 #
 # Material académico para estudiantes
 
-# 07. Scite: verificar si un artículo ha sido apoyado o refutado después de publicarse
+# 07 — scite: verificar si un artículo ha sido apoyado o refutado después de publicarse
 
-Enlace oficial: https://scite.ai
+> Enlace oficial: <https://scite.ai>
+> Página de precios oficial: <https://scite.ai/pricing>
 
-## ¿Qué problema resuelve?
+## 1. ¿Qué problema resuelve?
 
 En ciencias químicas y biotecnología, un artículo no se queda fijo el día que se publica. Otros investigadores lo citan después, y esas citas posteriores dicen mucho: algunos trabajos confirman el resultado, otros lo usan solo como antecedente y otros encuentran resultados distintos. El número total de citas no distingue entre esos casos. Un artículo puede tener 200 citas y, aun así, que varios trabajos posteriores hayan cuestionado su resultado principal.
 
@@ -19,7 +20,7 @@ Scite resuelve ese problema en tres temas de trabajo concretos:
 - **Biorremediación de aguas residuales con microalgas:** antes de recomendar una especie o una condición de cultivo para remover nutrientes de aguas residuales, conviene revisar si los estudios posteriores confirmaron la eficiencia de remoción reportada.
 - **Ensamblaje de novo del genoma de Chlorella vulgaris:** antes de citar un ensamblaje o un método de anotación funcional como referencia, conviene revisar si otros grupos lo usaron con éxito o si reportaron problemas con ese ensamblaje.
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 Scite es una plataforma de búsqueda y evaluación de literatura científica. Su función central son las **Smart Citations** (citas inteligentes). Para cada artículo, Scite muestra:
 
@@ -38,7 +39,7 @@ Otras funciones de Scite:
 - **Scite Assistant:** un asistente que responde preguntas con base en la literatura indexada y muestra las fuentes. Las respuestas deben verificarse contra los artículos originales.
 - **Extensión de navegador:** añade los conteos de Scite a páginas de artículos y buscadores académicos compatibles.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Entrar a Scite
 
@@ -97,7 +98,7 @@ Ejemplo de búsqueda por DOI: pega `10.1007/s10811-024-03426-4` en la barra de b
 3. Repite el paso con los demás artículos del tema.
 4. Activa las alertas de la colección si la opción está disponible en tu plan, para recibir aviso cuando aparezcan nuevas citas de esos artículos.
 
-## Ejemplo trabajado: verificar el contexto de citas del artículo de 2025 sobre lípidos bajo luz azul y roja
+## 4. Ejemplo trabajado: verificar el contexto de citas del artículo de 2025 sobre lípidos bajo luz azul y roja
 
 Este ejemplo usa el artículo publicado por Juan y sus coautores:
 
@@ -179,7 +180,7 @@ Abre el artículo con más citas de apoyo, anota sus números de supporting, men
 
 Al terminar este ejemplo se tiene una ficha con los tres números del artículo de 2025, una lista de las frases de apoyo y de mención, y una lectura cuidadosa de cada cita que contradice, con una nota de qué hacer con cada una. Esa ficha se usa después en dos lugares: en la introducción y la discusión del artículo de RNA-seq, y en la preparación de la clase sobre luz azul y roja en *Chlorella vulgaris* y *Scenedesmus acutus*.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - El número total de citas no dice si un artículo fue apoyado o refutado. Hay que leer los tres números por separado y, sobre todo, leer las frases.
 - Las etiquetas supporting, mentioning y contrasting son clasificaciones automáticas. Una frase con matices, una negación o un tono irónico puede quedar mal clasificada. La frase completa manda sobre la etiqueta.
@@ -190,15 +191,15 @@ Al terminar este ejemplo se tiene una ficha con los tres números del artículo 
 - Antes de enviar un manuscrito, conviene pasar la lista de referencias por Reference Check y revisar cada marca de contradicción o retractación.
 - Para las clases, los números de Scite son un material directo: muestran a los estudiantes que la ciencia avanza cuando otros grupos ponen a prueba los resultados publicados.
 
-## Costo
+## 6. Costo
 
 Scite tiene una prueba gratuita de 7 días de las funciones de pago. Después de la prueba, la cuenta pasa al plan elegido al inicio, salvo que se cancele antes de que termine la prueba. La página oficial de precios es https://scite.ai/pricing
 
-Según fuentes secundarias consultadas en noviembre de 2026, los planes individuales son Basic desde 20 dólares al mes (144 dólares al año) y Pro desde 50 dólares al mes (480 dólares al año). El plan Basic incluye el Asistente de Scite, la búsqueda, los informes de citas inteligentes y colecciones de hasta 1.000 artículos. El plan Pro añade acceso a la API, colecciones de hasta 10.000 artículos y conjuntos de datos de patentes, ensayos clínicos y subvenciones. También existe un nivel gratuito limitado (Connect) que no incluye el Asistente ni la búsqueda completa, y que desde octubre de 2026 ya no recibe créditos MCP. Los precios y los límites cambian con frecuencia: verificar en la página oficial antes de pagar.
+Según fuentes secundarias consultadas en noviembre de 2026, los planes individuales son Basic (20 dólares al mes con pago mensual, o 144 dólares al año —12 dólares al mes— con facturación anual) y Pro (50 dólares al mes con pago mensual, o 480 dólares al año —40 dólares al mes— con facturación anual). El plan Basic incluye el Asistente de Scite, la búsqueda, los informes de citas inteligentes y colecciones de hasta 1.000 artículos. El plan Pro añade acceso a la API, colecciones de hasta 10.000 artículos y conjuntos de datos de patentes, ensayos clínicos y subvenciones. También existe un nivel gratuito limitado (Connect) que no incluye el Asistente ni la búsqueda completa, y que desde octubre de 2026 ya no recibe créditos MCP. Los precios y los límites cambian con frecuencia: verificar en la página oficial antes de pagar.
 
 La UASLP o la biblioteca de la institución pueden tener acceso institucional a Scite. Antes de pagar un plan personal, conviene preguntar en la biblioteca si la institución ya lo tiene contratado.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - Scite muestra el contexto de cada cita: si el trabajo posterior apoya, solo menciona o contradice el artículo citado.
 - El número total de citas no basta: hay que leer los tres conteos por separado y leer las frases de las citas.
@@ -206,7 +207,7 @@ La UASLP o la biblioteca de la institución pueden tener acceso institucional a 
 - El artículo de 2025 sobre lípidos bajo luz azul y roja se verifica por su DOI en Scite, y la ficha resultante sirve para el artículo de RNA-seq y para las clases.
 - Antes de enviar un manuscrito, la lista de referencias se revisa con Reference Check para detectar referencias contradichas o retractadas.
 
-## Enlaces
+## 8. Enlaces
 
 - Scite: https://scite.ai
 - Precios de Scite: https://scite.ai/pricing

@@ -5,9 +5,11 @@
 #
 # Material académico para estudiantes
 
-# Zotero: gestor de referencias para tus artículos
+# 06 — Zotero: gestor de referencias para tus artículos
 
-## ¿Qué problema resuelve?
+> Enlace oficial: <https://www.zotero.org>
+
+## 1. ¿Qué problema resuelve?
 
 Cuando escribes un artículo científico, la bibliografía es una fuente constante de errores y de tiempo perdido: un autor mal escrito, un año cambiado, un DOI que no corresponde, una revista que pide el estilo Vancouver y otra que pide el estilo de *Plant Biotechnology Journal*, y tener que rehacer todas las citas a mano cada vez que cambias de revista.
 
@@ -20,7 +22,7 @@ Zotero resuelve cuatro problemas concretos de tu trabajo diario:
 
 Tú escribes tus artículos en Word en tu Mac. Zotero está hecho justo para ese flujo: el plugin de Word es la pieza central de esta guía.
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 Zotero es un gestor de referencias bibliográficas gratuito y de código abierto, disponible en [zotero.org](https://www.zotero.org). Está formado por tres piezas:
 
@@ -30,7 +32,7 @@ Zotero es un gestor de referencias bibliográficas gratuito y de código abierto
 
 Además, Zotero tiene un **lector de PDF integrado** para leer y subrayar los artículos dentro de la propia aplicación, y admite complementos (plugins) como **Watch Folder**, que importa automáticamente los PDFs nuevos que guardes en una carpeta de tu Mac.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Confirmar el correo de bienvenida
 
@@ -173,7 +175,7 @@ Zotero guarda los datos que encuentra, pero los datos que encuentra no siempre s
 
 **Regla de oro:** Zotero guarda referencias reales que tú le diste; nunca inventa referencias. Si una referencia no tiene DOI ni datos completos, no la cites hasta haber comprobado que el artículo existe y que los datos son los correctos. Una referencia inventada o con datos falsos en un manuscrito es un problema serio en la revisión por pares.
 
-## Ejemplo trabajado con tus temas
+## 4. Ejemplo trabajado: citar en el manuscrito de RNA-seq
 
 ### La situación
 
@@ -224,7 +226,7 @@ El borrador del genoma de *Chlorella vulgaris* ("De novo genome assembly and fun
 
 Cada manuscrito tiene su propio estilo en su propio documento; cambiar el estilo en un documento no afecta a los demás.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - **Revisa los metadatos siempre.** Zotero recupera los datos del PDF automáticamente, pero a veces el título queda cortado, falta el DOI o los autores aparecen en el orden equivocado. Cinco minutos de revisión por artículo evitan errores en la bibliografía final.
 - **Usa el DOI como comprobación.** Si la referencia tiene el DOI correcto, casi seguro que el resto de los datos también lo están. Si no tiene DOI, busca el artículo en la página de la revista y comprueba los datos a mano.
@@ -232,11 +234,11 @@ Cada manuscrito tiene su propio estilo en su propio documento; cambiar el estilo
 - **Haz una copia de seguridad de tu biblioteca.** En Zotero, ve a **Zotero → Ajustes → Avanzado** y revisa dónde está la carpeta de datos. Copia esa carpeta a un disco externo de vez en cuando. La sincronización en la nube no sustituye a una copia de seguridad.
 - **No borres referencias desde Word.** Si quieres quitar una cita, usa **Add/Edit Citation** y borra la cita desde la barra de Zotero. Si borras el texto de la cita a mano, Zotero sigue contándola para la bibliografía.
 - **Antes de enviar el manuscrito, desvincula las citas solo en la copia final.** El botón **Unlink Citations** convierte las citas en texto normal y ya no se pueden actualizar. Úsalo solo en la copia que envías a la revista, nunca en tu documento de trabajo.
-- **El plugin Watch Folder es de un desarrollador externo, no del equipo de Zotero.** Funciona con Zotero 7, 8, 9 y 10. Si actualizas Zotero a una versión nueva y el plugin deja de funcionar, revisa su página en GitHub para ver si hay una actualización.
+- **El plugin Watch Folder es de un desarrollador externo, no del equipo de Zotero.** Funciona con Zotero 7 (la versión actual). Si actualizas Zotero a una versión nueva y el plugin deja de funcionar, revisa su página en GitHub para ver si hay una actualización.
 - **Zotero no busca artículos por ti.** Guarda y organiza lo que tú le das. Para encontrar artículos nuevos sigues usando las bases de datos (PubMed, Scopus, Google Scholar) y el conector del navegador para guardarlos.
 - **Zotero no escribe la bibliografía de memoria.** Si citas un artículo que no está en tu biblioteca, Zotero no puede citarlo. Primero guarda la referencia, después cítala.
 
-## Costo (gratis vs pago)
+## 6. Costo
 
 **Zotero es gratuito y de código abierto.** El programa, el conector del navegador y el plugin de Word no cuestan nada y no tienen límite de referencias: puedes guardar todas las referencias que quieras.
 
@@ -246,7 +248,7 @@ Cada manuscrito tiene su propio estilo en su propio documento; cambiar el estilo
 
 Para tu trabajo actual, 300 MB alcanzan para los PDFs de los tres proyectos, siempre que no guardes en Zotero PDFs que no vayas a citar. Si el espacio se acaba, la solución más sencilla es guardar en Zotero solo los artículos que citas y dejar el resto de los PDFs en una carpeta de tu Mac.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - Zotero guarda artículos con sus datos completos y el PDF adjunto, organizados en colecciones por proyecto: transcriptómica RNA-seq, biorremediación de aguas residuales y genoma de *Chlorella vulgaris*.
 - El plugin de Word cita mientras escribes y genera la bibliografía; cambiar de estilo (APA, Vancouver o el de una revista concreta) reformatea todo el documento en segundos.
@@ -254,7 +256,7 @@ Para tu trabajo actual, 300 MB alcanzan para los PDFs de los tres proyectos, sie
 - Cada referencia se verifica antes de citarla: se comprueba el título, los autores y el DOI, y se corrige en Zotero, no en Word.
 - Zotero es gratuito y la sincronización de las referencias no tiene límite; el límite de 300 MB es solo para los PDFs guardados en la nube.
 
-## Enlaces
+## 8. Enlaces
 
 - Página principal y descargas: [zotero.org](https://www.zotero.org) y [zotero.org/download](https://www.zotero.org/download)
 - Tu biblioteca en la web: [zotero.org/mylibrary](https://www.zotero.org/mylibrary)

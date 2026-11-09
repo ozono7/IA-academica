@@ -5,9 +5,12 @@
 #
 # Material académico para estudiantes
 
-# DeepL: traducir y pulir textos científicos
+# 05 — DeepL: traducir y pulir textos científicos
 
-## ¿Qué problema resuelve?
+> Enlace oficial: <https://www.deepl.com>
+> Página de precios oficial: <https://www.deepl.com/es/pro>
+
+## 1. ¿Qué problema resuelve?
 
 Cuando escribes un artículo científico en inglés, el problema no es saber la ciencia, es decirla en el inglés que piden las revistas. Traducir un resumen o una sección de resultados palabra por palabra desde el español produce frases que suenan forzadas, con el orden de las palabras cambiado y con términos técnicos traducidos de forma distinta a como los usa la literatura de tu área.
 
@@ -17,7 +20,7 @@ DeepL resuelve tres problemas concretos de tu trabajo diario:
 2. **Mantener tus términos técnicos siempre iguales** en todo el manuscrito, con un glosario propio (por ejemplo, que "luz azul" siempre sea *blue light* y nunca *blue lighting*).
 3. **Pulir la gramática y el tono** de un texto que ya escribiste en inglés, con DeepL Write, para que suene como el inglés académico de las revistas donde quieres publicar: *Plant Biotechnology Journal*, *Bioresource Technology*, *Chemosphere* y *Science of the Total Environment*.
 
-## ¿Qué hace?
+## 2. ¿Qué hace?
 
 DeepL es un traductor con inteligencia artificial, disponible en la web en [deepl.com](https://www.deepl.com/translator). Hace tres cosas:
 
@@ -25,7 +28,7 @@ DeepL es un traductor con inteligencia artificial, disponible en la web en [deep
 - **Glosario**: una lista de pares de términos que tú defines (término en español → término en inglés) y que DeepL aplica siempre que aparece ese término. Así, en todo tu artículo, "acumulación de lípidos" es siempre *lipid accumulation* y "ensamblaje de novo" es siempre *de novo assembly*.
 - **DeepL Write**: una herramienta aparte, dentro de la misma página, que corrige la gramática, la puntuación y el tono de un texto que ya está en inglés, y propone reformulaciones. No traduce: mejora lo que ya escribiste.
 
-## Paso a paso para usarla
+## 3. Paso a paso para usarla
 
 ### Paso 1. Entrar al traductor
 
@@ -93,7 +96,7 @@ El glosario es lo que hace que DeepL valga la pena para un artículo científico
 
 **Qué esperar:** Write no reescribe todo el párrafo de golpe; te muestra cambios puntuales y tú decides cuáles aceptar. El resultado es tu mismo texto, con la gramática corregida y el tono ajustado al registro académico.
 
-## Ejemplo trabajado con tus temas
+## 4. Ejemplo trabajado: traducir el resumen del artículo de RNA-seq
 
 Este ejemplo usa un párrafo realista del resumen de tu artículo de RNA-seq sobre *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja.
 
@@ -137,7 +140,7 @@ Traducción esperada (con glosario activo):
 
 **Cómo interpretar el resultado:** el verbo en inglés queda en pasiva (*were performed*), que es la forma habitual en los resúmenes científicos. Si prefieres la voz activa (*We performed de novo genome assembly...*), DeepL Write te la puede proponer, pero la pasiva es la opción más común en este tipo de resumen.
 
-## Consejos y limitaciones
+## 5. Consejos y limitaciones
 
 - **Traduce por secciones, no el manuscrito entero de una vez.** El resumen, la introducción, los métodos y los resultados tienen vocabulario distinto. Traducir por secciones te permite revisar cada parte con calma y mantener la coherencia de los términos.
 - **El glosario es tu mejor herramienta.** Dedica 10 minutos a crear el glosario antes de traducir el primer párrafo. Esos 10 minutos te ahorran horas de correcciones después.
@@ -148,7 +151,7 @@ Traducción esperada (con glosario activo):
 - **DeepL Write tiene sugerencias limitadas en la versión gratuita.** Para pulir textos largos con todas las funciones, revisa las condiciones actuales en la página oficial (ver sección de costo).
 - **Verifica los números después de cada traducción.** Los porcentajes, las longitudes de onda (nm), las tasas de crecimiento (d⁻¹) y las concentraciones (mg/L) deben quedar exactamente iguales que en el original. Un número cambiado es un error científico, no un error de idioma.
 
-## Costo (gratis vs pago)
+## 6. Costo
 
 **Plan gratuito (DeepL Free):**
 
@@ -165,7 +168,7 @@ Traducción esperada (con glosario activo):
 
 Para tu trabajo, el plan gratuito alcanza para traducir resúmenes y secciones cortas y para mantener un glosario con los 5 términos más frecuentes. Si empiezas a traducir manuscritos completos con frecuencia, el plan de pago es el paso siguiente.
 
-## Qué aprendimos
+## 7. Qué aprendimos
 
 - DeepL traduce texto y documentos completos conservando el formato, lo que sirve para pasar del borrador en español al manuscrito en inglés sin rehacer tablas ni títulos.
 - El glosario propio mantiene los términos técnicos iguales en todo el manuscrito: "luz azul" siempre es *blue light* y "acumulación de lípidos" siempre es *lipid accumulation*.
@@ -173,7 +176,7 @@ Para tu trabajo, el plan gratuito alcanza para traducir resúmenes y secciones c
 - Ninguna traducción se acepta sin leerla: se revisan los términos del glosario, los nombres científicos en cursiva, los conectores y las cifras con sus unidades.
 - El plan gratuito cubre el trabajo habitual (5 000 caracteres por traducción, 1 documento al mes), y el plan de pago se valora cuando el volumen de traducción crece.
 
-## Enlaces
+## 8. Enlaces
 
 - Traductor: [deepl.com/translator](https://www.deepl.com/translator)
 - Precios y planes: [deepl.com/es/pro](https://www.deepl.com/es/pro)

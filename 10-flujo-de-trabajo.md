@@ -122,7 +122,7 @@ Ver [06-zotero.md](06-zotero.md).
 
 **Resultado esperado:** el manuscrito en Word con las citas insertadas y la bibliografía generada en el estilo de la revista elegida.
 
-## Paso 8. Organizar y preparar — NotebookLM
+## Paso 8. Organizar y preparar — NotebookLM (Gemini Notebook)
 
 Ver [09-notebooklm.md](09-notebooklm.md).
 
@@ -141,12 +141,12 @@ Ver [05-deepl.md](05-deepl.md).
 - Escribe el manuscrito en español en Word (o el borrador del resumen).
 - Entra a https://deepl.com/translator y traduce el documento completo al inglés, conservando el formato.
 - Configura el glosario con los términos de tu área antes de traducir, por ejemplo:
-  - blue light → luz azul
-  - red light → luz roja
-  - lipid accumulation → acumulación de lípidos
-  - growth rate → tasa de crecimiento
-  - de novo genome assembly → ensamblaje de novo del genoma
-  - wastewater bioremediation → biorremediación de aguas residuales
+  - luz azul → blue light
+  - luz roja → red light
+  - acumulación de lípidos → lipid accumulation
+  - tasa de crecimiento → growth rate
+  - ensamblaje de novo del genoma → de novo genome assembly
+  - biorremediación de aguas residuales → wastewater bioremediation
 - Usa DeepL Write para pulir la redacción del resumen y de la discusión.
 - Revisa la traducción frase por frase: nunca aceptes una traducción sin leerla, y corrige los términos técnicos que DeepL haya traducido mal.
 
@@ -163,7 +163,7 @@ Ver [05-deepl.md](05-deepl.md).
 | 5 | scite | Contexto de citas verificado |
 | 6 | Research Rabbit | Colección completa de literatura relacionada |
 | 7 | Zotero | Referencias organizadas y citas en Word |
-| 8 | NotebookLM | Resumen, guía de estudio y material de clase |
+| 8 | NotebookLM (Gemini Notebook) | Resumen, guía de estudio y material de clase |
 | 9 | DeepL | Manuscrito traducido y pulido |
 
 ## Qué aprendimos
