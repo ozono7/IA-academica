@@ -26,21 +26,23 @@ A estudiantes de ciencias químicas, biotecnología y biotecnología ambiental, 
 | [07-scite.md](07-scite.md) | scite | Ver si un artículo ha sido apoyado o refutado después de publicarse | Prueba gratuita de 7 días; planes de pago |
 | [08-research-rabbit.md](08-research-rabbit.md) | Research Rabbit | Descubrir literatura relacionada y organizar colecciones | Gratis (Free Forever); RR+ de pago |
 | [09-notebooklm.md](09-notebooklm.md) | NotebookLM (Gemini Notebook) | Organizar fuentes, resúmenes y guías de estudio | Gratis con cuenta de Google |
-| [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) | Flujo completo | Las 9 herramientas juntas, aplicadas a un artículo real | — |
+| [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) | Flujo completo | Las 10 herramientas juntas, aplicadas a un artículo real | — |
+| [11-pubmed.md](11-pubmed.md) | PubMed (NCBI) | Buscar artículos por tema: título, año, revista, autores, resumen, DOI | Gratis |
 
 ## El flujo de trabajo completo
 
-El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las 9 herramientas, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja. El flujo, en resumen:
+El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramientas, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja. El flujo, en resumen:
 
-1. **Buscar** — Semantic Scholar: encontrar artículos sobre lípidos en microalgas bajo luz azul y roja, y descargar los de acceso abierto.
-2. **Validar** — Consensus: preguntar si la evidencia apoya que la luz azul aumenta la acumulación de lípidos, y leer el Consensus Meter.
-3. **Extraer** — Elicit: subir los PDFs y armar una tabla comparativa (especie, luz, intensidad, lípidos, método, resultado).
-4. **Mapear** — Connected Papers: partir del artículo de Torres-Martínez (2025) y ver los trabajos previos (Prior Works) y los derivados (Derivative Works).
-5. **Verificar el contexto** — scite: revisar si los artículos clave han sido apoyados o refutados por citas posteriores.
-6. **Descubrir más** — Research Rabbit: usar los artículos semilla para encontrar literatura relacionada y organizar la colección del artículo de RNA-seq.
-7. **Citar** — Zotero: guardar las referencias en la colección del proyecto, importar los PDFs y citar en Word con el estilo de la revista elegida.
-8. **Organizar y preparar** — NotebookLM (Gemini Notebook): subir las fuentes, generar un resumen y una guía de estudio, y preparar material de clase.
-9. **Redactar y traducir** — DeepL: traducir el manuscrito al inglés y pulir la redacción con el glosario de términos del área.
+1. **Buscar en PubMed** — PubMed: buscar artículos por tema y obtener la ficha completa de cada uno (título, año, revista, autores, resumen, DOI, PMID), y exportar las referencias a Zotero.
+2. **Buscar** — Semantic Scholar: encontrar artículos sobre lípidos en microalgas bajo luz azul y roja, y descargar los de acceso abierto.
+3. **Validar** — Consensus: preguntar si la evidencia apoya que la luz azul aumenta la acumulación de lípidos, y leer el Consensus Meter.
+4. **Extraer** — Elicit: subir los PDFs y armar una tabla comparativa (especie, luz, intensidad, lípidos, método, resultado).
+5. **Mapear** — Connected Papers: partir del artículo de Torres-Martínez (2025) y ver los trabajos previos (Prior Works) y los derivados (Derivative Works).
+6. **Verificar el contexto** — scite: revisar si los artículos clave han sido apoyados o refutados por citas posteriores.
+7. **Descubrir más** — Research Rabbit: usar los artículos semilla para encontrar literatura relacionada y organizar la colección del artículo de RNA-seq.
+8. **Citar** — Zotero: guardar las referencias en la colección del proyecto, importar los PDFs y citar en Word con el estilo de la revista elegida.
+9. **Organizar y preparar** — NotebookLM: subir las fuentes, generar un resumen y una guía de estudio, y preparar material de clase.
+10. **Redactar y traducir** — DeepL: traducir el manuscrito al inglés y pulir la redacción con el glosario de términos del área.
 
 ## Cómo usar este repositorio
 
@@ -52,6 +54,8 @@ El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las 9 herrami
 ## Enlaces oficiales
 
 - Semantic Scholar: https://semanticscholar.org
+- PubMed (NCBI): https://pubmed.ncbi.nlm.nih.gov/
+- Europe PMC: https://europepmc.org/
 - Consensus: https://consensus.app
 - Elicit: https://elicit.com
 - Connected Papers: https://connectedpapers.com
