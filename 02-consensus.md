@@ -168,13 +168,13 @@ Qué esperar: aquí el medidor puede salir **Possibly** o **Mixed**, porque es u
 - **La pregunta manda.** El medidor solo aparece con preguntas de Sí o No bien formuladas. Si escribes un tema o una pregunta abierta, obtendrás una síntesis y una lista de artículos, pero no el medidor.
 - **Escribe la pregunta en inglés.** La herramienta trabaja con literatura en inglés. Una pregunta en español devuelve pocos resultados o ninguno.
 - **Una pregunta, una variable.** No combines dos cosas en una sola pregunta. En lugar de preguntar si la luz azul aumenta los lípidos y el crecimiento a la vez, haz dos preguntas separadas: una para lípidos y otra para crecimiento.
-- **El medidor no es una revisión sistemática.** Clasifica entre 5 y 20 artículos relevantes para tu pregunta concreta. No aplica protocolos PRISMA, no combina tamaños de efecto y no pondera cada estudio por su riesgo de sesgo. Para una revisión sistemática real, el medidor es un punto de partida, no el resultado.
+- **El medidor no es una revisión sistemática.** Clasifica entre 5 y 20 artículos relevantes para tu pregunta concreta. No aplica protocolos PRISMA, no combina tamaños de efecto y no pondera cada estudio por su riesgo de sesgo. Para una revisión sistemática, el medidor es un punto de partida, no el resultado.
 - **No inventa respuestas.** Consensus solo trabaja con artículos revisados por pares de su índice. Si un tema tiene poca literatura publicada, el medidor saldrá débil o no aparecerá, y eso es información: significa que el tema está poco estudiado, no que la herramienta falló.
 - **Revisa los artículos detrás del medidor.** Un medidor en Yes con 6 artículos no vale lo mismo que un medidor en Yes con 20 artículos y 3 revisiones sistemáticas. Haz clic en las categorías y lee al menos los resúmenes de los artículos que más pesan.
 - **Cuidado con los temas muy nuevos o muy específicos.** En temas como el ensamblaje de novo del genoma de una especie concreta, puede haber muy pocos artículos y el medidor no será fiable. En esos casos, usa Consensus para la búsqueda general y Semantic Scholar para la búsqueda fina.
 - **No cites a Consensus en tu artículo.** Cita los artículos originales que Consensus te mostró. Consensus es una herramienta de búsqueda, no una fuente científica.
 - **Guarda tus preguntas.** Anota la pregunta exacta y la fecha de cada consulta. Si vuelves a preguntar lo mismo dentro de unos meses, el medidor puede haber cambiado porque se publicaron estudios nuevos.
-- **Usa el plan gratuito con estrategia.** Las búsquedas básicas y el medidor son ilimitados en el plan gratuito, pero los análisis Pro y las revisiones profundas tienen límite mensual. Reserva los análisis Pro para las preguntas que realmente importan para tus artículos en curso (ver sección 6).
+- **Usa el plan gratuito con estrategia.** Las búsquedas básicas y el medidor son ilimitados en el plan gratuito, pero los análisis Pro y las revisiones profundas tienen límite mensual. Reserva los análisis Pro para las preguntas que importan para tus artículos en curso (ver sección 6).
 
 ## 6. Costo
 

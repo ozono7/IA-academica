@@ -7,7 +7,7 @@
 
 # 10 — Flujo de trabajo completo: de la búsqueda al manuscrito
 
-Este archivo aplica las 10 herramientas del repositorio, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja (acumulación de lípidos, crecimiento y transcriptoma). El objetivo del flujo es armar la revisión de literatura y el borrador del manuscrito para enviarlo a una de las revistas candidatas: Plant Biotechnology Journal, Bioresource Technology o Metabolic Engineering.
+Este archivo aplica las 10 herramientas del repositorio, en orden, a un ejemplo: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja (acumulación de lípidos, crecimiento y transcriptoma). El objetivo del flujo es armar la revisión de literatura y el borrador del manuscrito para enviarlo a una de las revistas candidatas: Plant Biotechnology Journal, Bioresource Technology o Metabolic Engineering.
 
 Cada paso remite al archivo de la herramienta, donde están las instrucciones detalladas. Aquí se muestra qué hacer en cada paso, con las búsquedas y preguntas literales.
 

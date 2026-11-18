@@ -28,7 +28,7 @@ Scite es una plataforma de búsqueda y evaluación de literatura científica. Su
 - **Mentioning (menciona):** el artículo que cita menciona el trabajo sin apoyarlo ni contradecirlo de forma clara. Es la categoría más frecuente.
 - **Contrasting (contradice):** la frase del artículo que cita presenta evidencia en conflicto con el artículo citado o cuestiona alguno de sus resultados.
 
-Además de los conteos, Scite muestra la frase exacta en la que ocurre cada cita, con su contexto. Eso permite leer qué se dijo realmente, en lugar de quedarse solo con el número.
+Además de los conteos, Scite muestra la frase exacta en la que ocurre cada cita, con su contexto. Eso permite leer qué se dijo, en lugar de quedarse solo con el número.
 
 Otras funciones de Scite:
 
@@ -186,7 +186,7 @@ Al terminar este ejemplo se tiene una ficha con los tres números del artículo 
 - Las etiquetas supporting, mentioning y contrasting son clasificaciones automáticas. Una frase con matices, una negación o un tono irónico puede quedar mal clasificada. La frase completa manda sobre la etiqueta.
 - Una cita que contradice no significa que el artículo citado esté mal. Puede cuestionar un resultado secundario, puede venir de condiciones distintas o puede reflejar que el campo todavía no tiene consenso.
 - Un artículo reciente tiene pocas citas por el poco tiempo transcurrido, no por falta de calidad. En el caso del artículo de 2025, conviene repetir la verificación cada pocos meses.
-- Scite depende de los textos completos a los que tiene acceso. No todos los artículos ni todas las editoriales están cubiertos por igual, así que un conteo bajo puede reflejar cobertura y no falta de citas reales. Para un conteo completo, conviene contrastar con Google Scholar o con la base de datos de la editorial.
+- Scite depende de los textos completos a los que tiene acceso. No todos los artículos ni todas las editoriales están cubiertos por igual, así que un conteo bajo puede reflejar cobertura y no falta de citas. Para un conteo completo, conviene contrastar con Google Scholar o con la base de datos de la editorial.
 - Scite no sustituye la lectura del artículo original. Sirve para decidir qué artículos leer primero y qué afirmaciones necesitan matizarse.
 - Antes de enviar un manuscrito, conviene pasar la lista de referencias por Reference Check y revisar cada marca de contradicción o retractación.
 - Para las clases, los números de Scite son un material directo: muestran a los estudiantes que la ciencia avanza cuando otros grupos ponen a prueba los resultados publicados.

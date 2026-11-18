@@ -11,7 +11,7 @@
 
 ## 1. ¿Qué problema resuelve?
 
-Cuando empiezas una investigación sobre microalgas o biorremediación, el problema no es que falten artículos: es que hay miles. Semantic Scholar ayuda a encontrar los artículos que realmente importan sobre un tema, ordenar la búsqueda por relevancia o por número de citas, y seguir la cadena de citas de un artículo clave hasta sus antecedentes y sus trabajos derivados.
+Cuando empiezas una investigación sobre microalgas o biorremediación, el problema no es que falten artículos: es que hay miles. Semantic Scholar ayuda a encontrar los artículos que importan sobre un tema, ordenar la búsqueda por relevancia o por número de citas, y seguir la cadena de citas de un artículo clave hasta sus antecedentes y sus trabajos derivados.
 
 En las áreas de trabajo de este material sirve para:
 
@@ -29,7 +29,7 @@ Sus funciones principales son:
 
 - **Búsqueda por concepto, no solo por palabra clave.** Entiende el tema que escribes y ordena los resultados por relevancia, número de citas, influencia o fecha de publicación.
 - **TLDR.** Un resumen de una sola frase generado por IA que aparece junto a algunos resultados. Está disponible principalmente para artículos de ciencias de la computación, biología y medicina, así que no todos los artículos de microalgas lo tendrán.
-- **Citas altamente influyentes (Highly Influential Citations).** Marca las citas en las que el trabajo citado influyó de forma importante en el artículo que cita, lo que ayuda a distinguir una cita de pasada de una cita que realmente sostiene el trabajo.
+- **Citas altamente influyentes (Highly Influential Citations).** Marca las citas en las que el trabajo citado influyó de forma importante en el artículo que cita, lo que ayuda a distinguir una cita de pasada de una cita que sostiene el trabajo.
 - **Clasificación de la intención de la cita.** Indica si una cita se usa como antecedente (*Background*), como método (*Method*) o como extensión de resultados (*Result Extension*).
 - **Semantic Reader.** Un lector de PDF integrado que, en los artículos compatibles (principalmente de arXiv), muestra tarjetas con el contexto de cada cita al hacer clic sobre ella, definiciones de términos técnicos y resaltados para leer por encima el texto.
 - **Biblioteca (Library), carpetas y alertas.** Con una cuenta gratuita se pueden guardar artículos en carpetas, exportar las referencias en formato BibTeX o RIS, y recibir alertas por correo cuando se publique algo nuevo de un autor, un tema o un artículo que sigues.

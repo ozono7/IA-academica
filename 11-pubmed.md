@@ -52,7 +52,7 @@ Un mismo artículo aparece en varias fuentes. El script lo junta en un solo reng
 
 ### 2.4. Descarga los PDFs libres (máximo 120)
 
-Para cada artículo con DOI, el script consulta Unpaywall (API gratuita, sin clave) para saber si es de acceso abierto y obtener el enlace directo al PDF. Después descarga los PDFs a la carpeta `pdfs/`, en este orden de intento: Unpaywall, arXiv, Semantic Scholar, OpenAlex, Europe PMC y CORE. Solo guarda el archivo si la respuesta es un PDF real (Content-Type `application/pdf` y tamaño mayor que cero).
+Para cada artículo con DOI, el script consulta Unpaywall (API gratuita, sin clave) para saber si es de acceso abierto y obtener el enlace directo al PDF. Después descarga los PDFs a la carpeta `pdfs/`, en este orden de intento: Unpaywall, arXiv, Semantic Scholar, OpenAlex, Europe PMC y CORE. Solo guarda el archivo si la respuesta es un PDF (Content-Type `application/pdf` y tamaño mayor que cero).
 
 **Límite de 120 PDFs:** como máximo se descargan 120 PDFs, los más recientes primero (ordenados por año descendente). Si hay más de 120 artículos con PDF libre, los restantes quedan anotados en la tabla como "sin descargar (límite de 120 PDFs)". Los artículos sin PDF libre también quedan anotados, con el motivo (por ejemplo, "no es de acceso abierto" o "el editor bloquea descargas automáticas").
 
@@ -119,7 +119,7 @@ Tema del ejemplo: *Chlorella vulgaris* bajo luz azul y acumulación de lípidos 
 - **Búsqueda:** PubMed devolvió 3 artículos; Europe PMC, 1179 resultados (se tomaron 10); Crossref, más de 1.4 millones (se tomaron 10); arXiv, 5 preprints. Semantic Scholar, OpenAlex y CORE devolvieron error 429 en ese momento (límite compartido por IP), así que el script habría esperado y reintentado, y seguido con las demás fuentes.
 - **Tras deduplicar por DOI:** 27 artículos únicos. El primero es de 2026 en *Bioresource Technology* (encontrado en PubMed y en Europe PMC a la vez). La tabla indica en qué fuente se encontró cada artículo.
 - **PDFs libres:** 12 de los 27 son de acceso abierto según Unpaywall; 5 tenían enlace directo al PDF. Se descargaron 2 PDFs como prueba de la cadena (uno de Nature Portfolio y uno de Frontiers); los demás enlaces fallaron porque Wiley cerró la conexión y MDPI bloquea descargas automáticas (error 403). Esos casos quedaron anotados en la tabla con su motivo.
-- **Revistas sugeridas:** 4 revistas Q1 con datos reales de Scimago (marzo 2026): Plant Biotechnology Journal (SJR 3.382, H 176), Bioresource Technology (SJR 1.983, H 404), Metabolic Engineering (SJR 1.842, H 165) y Chemosphere (SJR 1.648, H 353).
+- **Revistas sugeridas:** 4 revistas Q1 con datos de Scimago (marzo 2026): Plant Biotechnology Journal (SJR 3.382, H 176), Bioresource Technology (SJR 1.983, H 404), Metabolic Engineering (SJR 1.842, H 165) y Chemosphere (SJR 1.648, H 353).
 
 Segundo ejemplo corto: para biorremediación de aguas residuales con microalgas, cambia el tema en la configuración por `"microalgae wastewater bioremediation nutrient removal"` y corre el script de nuevo: la tabla y las revistas se regeneran para ese tema.
 

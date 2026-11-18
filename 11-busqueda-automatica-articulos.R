@@ -603,7 +603,7 @@ consultar_unpaywall <- function(doi, correo) {
 # 10. DESCARGAR LOS PDFS LIBRES (MÁXIMO 120)
 #     Se intentan las fuentes de PDF en este orden: Unpaywall (url_for_pdf),
 #     arXiv, Semantic Scholar (openAccessPdf), OpenAlex, Europe PMC y CORE.
-#     Solo se guarda el archivo si la respuesta es un PDF real
+#     Solo se guarda el archivo si la respuesta es un PDF
 #     (Content-Type application/pdf y tamaño mayor que cero). Si un editor
 #     bloquea la descarga (Wiley, MDPI y otros bloquean robots), se anota el
 #     motivo y el script sigue con el siguiente artículo, sin fallar.

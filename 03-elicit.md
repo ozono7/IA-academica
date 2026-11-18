@@ -114,7 +114,7 @@ No se necesita tarjeta de crédito para el plan gratuito (Basic).
 | Artículo C (2024) | *Scenedesmus acutus* | Azul, 450 nm | 31 % | 0.66 | Gravimetría |
 | Artículo D (2021) | *Scenedesmus acutus* | Roja, 660 nm | 25 % | 0.52 | Bligh y Dyer |
 
-Los valores de esta tabla son un ejemplo del formato que se espera; los valores reales son los que Elicit extraiga de cada artículo y deben comprobarse con el procedimiento siguiente.
+Los valores de esta tabla son un ejemplo del formato que se espera; los valores son los que Elicit extraiga de cada artículo y deben comprobarse con el procedimiento siguiente.
 
 **Cómo interpretar la tabla:** se lee por columnas. Si la columna de lípidos muestra valores más altos en luz azul que en luz roja en las dos especies, eso apoya que la luz azul favorece la acumulación de lípidos. Si un artículo reporta lo contrario, se revisa su método: un método distinto de medición de lípidos puede explicar la diferencia antes que la biología. La columna de mu dice si el tratamiento que dio más lípidos también permitió crecer rápido, o si hubo un compromiso entre crecer y acumular lípidos.
 

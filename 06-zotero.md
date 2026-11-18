@@ -141,7 +141,7 @@ Si tienes una carpeta en tu Mac donde descargas los PDFs de artículos, el plugi
 2. Haz clic en **Add/Edit Bibliography**.
 3. Zotero genera la lista completa de todas las referencias que citaste, ordenada según el estilo elegido.
 
-**Qué esperar:** cada vez que añadas o quites una cita, haz clic en **Refresh** para que Zotero actualice las citas y la bibliografía. La bibliografía se genera solo con las referencias que realmente citaste en el texto.
+**Qué esperar:** cada vez que añadas o quites una cita, haz clic en **Refresh** para que Zotero actualice las citas y la bibliografía. La bibliografía se genera solo con las referencias que citaste en el texto.
 
 ### Paso 8. Cambiar el estilo de citación según la revista
 
@@ -173,7 +173,7 @@ Zotero guarda los datos que encuentra, pero los datos que encuentra no siempre s
 4. Si algo está mal, corrígelo en la columna derecha de Zotero, no en Word. Todo lo que corrijas en Zotero se refleja en todas las citas de todos tus documentos.
 5. Si Zotero te avisa de un posible duplicado (dos referencias del mismo artículo), usa la función de fusionar duplicados: haz clic en **Duplicados** en la columna izquierda, selecciona las dos y haz clic en **Fusionar**.
 
-**Regla de oro:** Zotero guarda referencias reales que tú le diste; nunca inventa referencias. Si una referencia no tiene DOI ni datos completos, no la cites hasta haber comprobado que el artículo existe y que los datos son los correctos. Una referencia inventada o con datos falsos en un manuscrito es un problema serio en la revisión por pares.
+**Regla de oro:** Zotero guarda referencias que tú le diste; nunca inventa referencias. Si una referencia no tiene DOI ni datos completos, no la cites hasta haber comprobado que el artículo existe y que los datos son los correctos. Una referencia inventada o con datos falsos en un manuscrito es un problema serio en la revisión por pares.
 
 ## 4. Ejemplo trabajado: citar en el manuscrito de RNA-seq
 

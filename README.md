@@ -11,7 +11,7 @@ Repositorio con instrucciones paso a paso para usar herramientas de inteligencia
 
 ## ¿A quién va dirigido?
 
-A estudiantes de ciencias químicas, biotecnología y biotecnología ambiental, y a docentes que preparan clases y escriben artículos científicos. Cada herramienta tiene su propio archivo con el problema que resuelve, qué hace, el paso a paso, un ejemplo trabajado con temas reales, consejos, costo y un resumen final.
+A estudiantes de ciencias químicas, biotecnología y biotecnología ambiental, y a docentes que preparan clases y escriben artículos científicos. Cada herramienta tiene su propio archivo con el problema que resuelve, qué hace, el paso a paso, un ejemplo trabajado con temas, consejos, costo y un resumen final.
 
 ## Índice de herramientas
 
@@ -26,12 +26,12 @@ A estudiantes de ciencias químicas, biotecnología y biotecnología ambiental, 
 | [07-scite.md](07-scite.md) | scite | Ver si un artículo ha sido apoyado o refutado después de publicarse | Prueba gratuita de 7 días; planes de pago |
 | [08-research-rabbit.md](08-research-rabbit.md) | Research Rabbit | Descubrir literatura relacionada y organizar colecciones | Gratis (Free Forever); RR+ de pago |
 | [09-notebooklm.md](09-notebooklm.md) | NotebookLM (Gemini Notebook) | Organizar fuentes, resúmenes y guías de estudio | Gratis con cuenta de Google |
-| [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) | Flujo completo | Las 10 herramientas juntas, aplicadas a un artículo real | — |
+| [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) | Flujo completo | Las 10 herramientas juntas, aplicadas a un artículo | — |
 | [11-pubmed.md](11-pubmed.md) | Búsqueda automática | Buscar en 7 repositorios, ideas de revistas y descarga de PDFs | Gratis |
 
 ## El flujo de trabajo completo
 
-El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramientas, en orden, a un ejemplo real: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja. El flujo, en resumen:
+El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramientas, en orden, a un ejemplo: el artículo de RNA-seq de *Chlorella vulgaris* y *Scenedesmus acutus* bajo luz azul y roja. El flujo, en resumen:
 
 1. **Búsqueda automática** — Script de R: busca el tema en 7 repositorios (PubMed, Europe PMC, Semantic Scholar, OpenAlex, Crossref, arXiv y CORE), elimina duplicados por DOI, busca revistas candidatas en Scimago y Springer, y descarga los PDFs libres (máximo 120).
 2. **Buscar** — Semantic Scholar: encontrar artículos sobre lípidos en microalgas bajo luz azul y roja, y descargar los de acceso abierto.
@@ -46,7 +46,7 @@ El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramien
 
 ## Cómo usar este repositorio
 
-- Empieza por el archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) si quieres ver cómo se usan todas las herramientas juntas en un caso real.
+- Empieza por el archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) si quieres ver cómo se usan todas las herramientas juntas en un caso.
 - Si solo necesitas una herramienta, abre su archivo: cada uno es independiente y se puede seguir de principio a fin.
 - Las búsquedas y preguntas literales están escritas en inglés cuando la herramienta es en inglés, con su traducción al español.
 - Los precios y límites se verificaron en las páginas oficiales el 2026-11-09. Los precios cambian con frecuencia: antes de pagar, verifica en la página oficial enlazada en cada archivo.
@@ -77,4 +77,4 @@ El archivo [10-flujo-de-trabajo.md](10-flujo-de-trabajo.md) aplica las herramien
 - Buscar, validar, extraer, mapear, verificar, descubrir, citar, organizar y redactar son pasos distintos: cada herramienta cubre uno, y juntas forman el flujo completo de una revisión de literatura.
 - Ninguna herramienta sustituye leer el artículo original: los resúmenes y las tablas extraídas se verifican siempre contra el PDF.
 - Las referencias se guardan y se citan con Zotero, con el estilo de la revista a la que se va a enviar el manuscrito.
-- Los ejemplos de este repositorio usan temas reales (microalgas, luz azul y roja, RNA-seq, biorremediación, genoma de *Chlorella*), para que cada paso se pueda repetir tal cual.
+- Los ejemplos de este repositorio usan temas (microalgas, luz azul y roja, RNA-seq, biorremediación, genoma de *Chlorella*), para que cada paso se pueda repetir tal cual.
